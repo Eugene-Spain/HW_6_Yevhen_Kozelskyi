@@ -1,0 +1,159 @@
+body {
+    min-width: 1920px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #EEEFF1;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.wrapper-head {
+    margin-left: 399px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+nav ul {
+    padding: 0;
+    margin-top: 79px;
+}
+
+nav ul li {
+    float: left;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+li+li {
+    margin-left: 42px;
+    display: inline-block;
+}
+
+.design-section {
+    float: left;
+    margin-top: 151px;
+}
+
+main::before {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+h1 {
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+}
+h1+p {
+    margin-top: 60px;
+    font-size: 16px;
+    color: #727272;
+    max-width: 540px;
+    line-height: 26.25px;
+
+}
+
+button {
+    margin: 65px 0 141px 0;
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about-me{
+    margin: 0 auto;
+    margin-top: 112px;
+    margin-bottom: 100px; 
+    display: block;
+    max-width: 539px;
+    text-align: center;
+}
+h2+p{
+    color: #727272;
+    font-size: 16px;
+    line-height: 26.25px; 
+    margin-top: 50px;   
+}
+.project-list{
+    height: 250px;
+    background-color: #34547A;    
+}
+.project-list img{
+    height: 50px;
+}
+.project-list ul{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+   
+}
+.project-list ul li{
+    display: inline-block;
+    margin: 100px 50px 100px 0;  
+    height: 50px; 
+}
+.project-list p span{
+    display: block;
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.project-list p{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    margin:0 0 0 20px;
+
+}
+.wrapper-video{
+    margin: 0 auto;
+    max-width: 550px;
+}
+.video-block{
+    text-align: center;
+    background-color: #EEEFF1;
+    
+}
+.video-block h2{
+    padding-top: 100px;
+    margin-top: 0;   
+}
+.video-block iframe{
+    margin: 57px 0 100px 0;
+}
+
+footer{
+    background-color: #34547A;
+    color: white;
+    margin: 0 auto;
+    padding: 50px 0;     
+}
+.wrapper-footer{
+    margin-left: 399px;
+    text-align: left;
+    
+}
+footer h3{
+    margin-top: 0;
+    font-size: 21px;
+    line-height: 24.61px;
+}
+footer p{
+    font-size: 13px;
+    line-height: 21.33px;
+}
